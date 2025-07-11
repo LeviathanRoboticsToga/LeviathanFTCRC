@@ -44,7 +44,7 @@ public class MyCustomPipeline extends OpenCvPipeline {
             Imgproc.rectangle(output, new Point(20, 20), new Point(100, 100),
                     new Scalar(0, 255, 0), 2);
         }
-
+        //INPUT NOT OUTPUT because output is binary code
         return input; // This is the frame you see on the Driver Station
     }
 
