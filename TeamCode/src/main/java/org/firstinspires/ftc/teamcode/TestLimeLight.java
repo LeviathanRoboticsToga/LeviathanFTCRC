@@ -9,7 +9,6 @@ import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 public class TestLimeLight extends LinearOpMode {
     @Override
     public void runOpMode() throws InterruptedException {
-        int cameraMonitorViewId = hardwareMap.appContext.getResources().getIdentifier("cameraMonitorViewId", "172.29.0.29", hardwareMap.appContext.getPackageName());
         waitForStart();
         if (isStopRequested()) return;
 
